@@ -239,6 +239,53 @@ header{
 
 /* 4.4 section 4 */
 
+.contact {
+    max-width: 1140px;
+    margin: 0 auto 14px;
+    padding: 71px auto;
+    display: flex;
+    align-items: center;
+    gap: 115px;
+}
+
+.contact-title {
+    font-weight: bold;
+    font-size: 97px;
+}
+
+.contact-form {
+    width: 497px;
+}
+
+.contact-label {
+    display: block;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.contact-form input[type="text"], .contact-form input[type="email"], .contact-form textarea {
+    display: block;
+    width: 100%;
+    padding: 18px 20px;
+    font-size: 16px;
+    background-color: white;
+    border: 1px solid #D6DDED;
+    border-radius: 10px;
+    margin-bottom: 24px;
+    margin-top: 10px;
+}
+
+.contact-form textarea {
+    max-height: 150px;
+    resize: vertical;
+}
+
+.contact-form .btn-primary {
+    width: 109%;
+    font-size: 18px;
+    padding: 19px 201px;
+}
 
 
 /* 5. footer style */
