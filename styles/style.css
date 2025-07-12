@@ -24,6 +24,14 @@
     background-color: #4E47FF;
     font-weight: bold;
     font-size: 16px;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn-primary:hover{
+    color: black;
+    background-color: yellow;
+    border: 2px solid black;
 }
 
 /* 3. header style */
@@ -31,6 +39,7 @@
 *{
     margin: 0;
 }
+
 
 /* 3.1 nav */
 
@@ -42,15 +51,35 @@ nav{
     display: flex;
     gap: 909px;
     align-self: center;
-    justify-content: space-around;
+    justify-content: center;
 
-    margin-bottom: 158px;
+    /* nav bottom margin towards header */
+    margin-bottom: 158px; 
 }
 
 .nav-title{
     font-size: 34px;
     font-weight: 900;
     color: #4E47FF;
+}
+
+/* nav end */
+
+header{
+    display: block;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+
+
+}
+
+.headline-title{
+    max-width: 905px;
+    font-weight: bold;
+    font-size: 65px;
+
+    margin-bottom: 37px;
 }
 
 /* 4. main style */
