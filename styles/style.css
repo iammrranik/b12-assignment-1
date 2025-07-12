@@ -32,6 +32,15 @@
     color: black;
     background-color: yellow;
     border: 2px solid black;
+    cursor: pointer;
+}
+
+.color-text-primary{
+    color: #252432;
+}
+
+.color-section{
+    background-color: #f5f8ff;
 }
 
 /* 3. header style */
@@ -66,16 +75,20 @@ nav{
 /* nav end */
 
 header{
-    display: block;
+    max-height: 698px;
+    background-image: url('../Assets/Hero-bg.png');
+    padding-bottom: 152px;
     align-items: center;
     justify-items: center;
     text-align: center;
+}
 
-
+.headline{
+    max-width: 905px;
+    max-height: 237px;
 }
 
 .headline-title{
-    max-width: 905px;
     font-weight: bold;
     font-size: 65px;
 
@@ -84,9 +97,41 @@ header{
 
 /* 4. main style */
 
+/* 4.1 section 1 (live preview) */
 
+.live-previews{
+    display: flex;
+    gap: 220px;
+    align-items: center;
+    justify-content: center;
 
-/* 4.1 section */
+    margin: 116px auto;
+}
+
+.live-preview{
+    max-width: 517px;
+    max-height: 203px;
+}
+
+.live-preview-title{
+    font-weight: bold;
+    font-size: 42px;
+
+    margin-bottom: 23px;
+}
+
+.live-preview-subtitle{
+    color: #D6DDED;
+    font-size: 24px;
+
+    margin-bottom: 23px;
+}
+
+.img-live-preview{
+    border-radius: 48px;
+}
+
+/* 4.2 section 2 */
 
 
 
