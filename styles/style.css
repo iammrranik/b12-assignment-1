@@ -290,4 +290,32 @@ header{
 
 /* 5. footer style */
 
+footer{
+    padding: 104px 0;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.foot-title{
+    font-weight: 900;
+    font-size: 100px;
+    color: #4E47FF;
+    margin-bottom: 8px;
+}
+
+.foot-description{
+    max-width: 531px;
+    color: #8987A1;
+    margin-bottom: 20px;
+}
+
+.foot-sections{
+    list-style: none;
+    display: flex;
+    gap: 48px;
+    color: rgba(137, 135, 161, 1);
+}
 
