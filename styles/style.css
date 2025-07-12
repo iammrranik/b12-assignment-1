@@ -2,10 +2,27 @@
 /* 1. imported style */
 
 
+.font-inter{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.font-raleway {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
 /* 2. shared style */
 
 
+
 /* 3. header style */
+
+
 
 /* 3.1 nav */
 
@@ -13,8 +30,12 @@
 
 /* 4. main style */
 
+
+
 /* 4.1 section */
 
 
 
 /* 5. footer style */
+
+
