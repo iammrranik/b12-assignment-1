@@ -68,7 +68,7 @@ nav{
 
 .nav-title{
     font-size: 34px;
-    font-weight: 900;
+    font-weight: 900px;
     color: #4E47FF;
 }
 
@@ -133,7 +133,42 @@ header{
 
 /* 4.2 section 2 */
 
+.user{
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    border-radius: 24px;
+    background-color: rgba(78, 71, 255, 0.1);
+    max-width: 1140px;
+    padding: 50px 0;
+    margin: 0 auto 137px;
+}
 
+.user-title{
+    font-weight: bold;
+    font-size: 38px;
+
+    margin-bottom: 40px;
+}
+
+.user-counts{
+    display: flex;
+    gap: 158px;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.user-count-num{
+    color: #4E47FF;
+    font-weight: bold;
+    font-size: 80px;
+}
+
+.user-count-title{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+}
 
 /* 5. footer style */
 
