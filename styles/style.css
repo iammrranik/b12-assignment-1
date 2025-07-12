@@ -9,7 +9,7 @@
     font-style: normal;
 }
 
-.font-raleway {
+.font-raleway{
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -18,15 +18,40 @@
 
 /* 2. shared style */
 
-
+.btn-primary{
+    padding: 12px 36px;
+    color: white;
+    background-color: #4E47FF;
+    font-weight: bold;
+    font-size: 16px;
+}
 
 /* 3. header style */
 
-
+*{
+    margin: 0;
+}
 
 /* 3.1 nav */
 
+nav{
+    max-height: 151;
+    max-width: 1140;
+    padding: 50px 0;
+    margin: 0 auto;
+    display: flex;
+    gap: 909px;
+    align-self: center;
+    justify-content: space-around;
 
+    margin-bottom: 158px;
+}
+
+.nav-title{
+    font-size: 34px;
+    font-weight: 900;
+    color: #4E47FF;
+}
 
 /* 4. main style */
 
